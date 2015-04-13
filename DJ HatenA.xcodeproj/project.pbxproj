@@ -14,6 +14,7 @@
 		CEEDD78E1AD9678F00DE075A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEDD78D1AD9678F00DE075A /* Images.xcassets */; };
 		CEEDD7911AD9678F00DE075A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEDD78F1AD9678F00DE075A /* LaunchScreen.xib */; };
 		CEEDD79D1AD9678F00DE075A /* DJ_HatenATests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD79C1AD9678F00DE075A /* DJ_HatenATests.m */; };
+		CEEDD7A81AD96BFE00DE075A /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEDD7A71AD96BFE00DE075A /* QuestionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CEEDD7961AD9678F00DE075A /* DJ HatenATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DJ HatenATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEDD79B1AD9678F00DE075A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEEDD79C1AD9678F00DE075A /* DJ_HatenATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJ_HatenATests.m; sourceTree = "<group>"; };
+		CEEDD7A61AD96BFE00DE075A /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		CEEDD7A71AD96BFE00DE075A /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CEEDD7851AD9678F00DE075A /* AppDelegate.m */,
 				CEEDD7871AD9678F00DE075A /* ViewController.h */,
 				CEEDD7881AD9678F00DE075A /* ViewController.m */,
+				CEEDD7A61AD96BFE00DE075A /* QuestionViewController.h */,
+				CEEDD7A71AD96BFE00DE075A /* QuestionViewController.m */,
 				CEEDD78A1AD9678F00DE075A /* Main.storyboard */,
 				CEEDD78D1AD9678F00DE075A /* Images.xcassets */,
 				CEEDD78F1AD9678F00DE075A /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				CEEDD7891AD9678F00DE075A /* ViewController.m in Sources */,
 				CEEDD7861AD9678F00DE075A /* AppDelegate.m in Sources */,
+				CEEDD7A81AD96BFE00DE075A /* QuestionViewController.m in Sources */,
 				CEEDD7831AD9678F00DE075A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
