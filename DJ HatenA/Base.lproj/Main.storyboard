@@ -45,6 +45,9 @@
                                 <state key="normal" title="MyPage">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2f8-od-F8w" kind="modal" id="e5E-P2-ayd"/>
+                                </connections>
                             </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3kn-BS-Kg8">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
